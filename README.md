@@ -28,3 +28,7 @@ The main goal is to create a smart platform where users can upload their resumes
 - Career insights and suggestions.  
 - Extra animations and modern UI improvements.  
                                                                                                                       
+A Pen created on CodePen.
+Original URL: https://codepen.io/Sam454/pen/NPGJxRp.
+
+
