@@ -1,0 +1,90 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI ATS Resume Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <div class="logo">ATS<span>Checker</span></div>
+    <nav>
+      <a href="#">Features</a>
+      <a href="#">Resume</a>
+      <a href="#">Cover Letter</a>
+      <a href="#">ATS Checker</a>
+      <a href="#">Pricing</a>
+    </nav>
+    <div class="auth-buttons">
+      <button class="login">Log In</button>
+      <button class="signup">Create Resume</button>
+    </div>
+  </header>
+
+  <!-- Hero Section (Landing Page) -->
+  <section class="hero" id="landing-page">
+    <div class="hero-text">
+      <h1>AI Resume Checker:<br>Get your resume score now.</h1>
+      <p>Get your resume reviewed in an instant. Scan your resume for issues and see how it compares against other resumes in our database.</p>
+      
+      <div class="upload-box">
+        <div class="upload-icon">☁️</div>
+        <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx" hidden>
+        <label for="resumeUpload" class="upload-btn">Upload your resume</label>
+        <p class="privacy">🔒 Privacy guaranteed</p>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="https://i.pinimg.com/736x/3c/cf/34/3ccf34134b34128bfeed0dfc0293016f.jpg" alt="Resume Preview">
+    </div>
+  </section>
+
+  <!-- Results Section (Hidden Initially) -->
+  <section class="results" id="results-page" style="display: none;">
+    <div class="score-box">
+      <h2>Your Resume Score</h2>
+      <div class="score-circle" id="score">0%</div>
+    </div>
+
+    <div class="analysis-box">
+      <h2>Analysis & Suggestions</h2>
+      <ul id="analysis-list">
+        <!-- Dynamic points inserted via JS -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- Keywords Section -->
+  <section class="keywords" id="keywords" style="display: none;">
+    <h2>Keyword Match</h2>
+    <p id="matched"></p>
+    <p id="missing"></p>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta" id="cta" style="display: none;">
+    <button class="improve-btn">Improve My Resume</button>
+  </section>
+
+  <!-- Continue Page Section -->
+  <section class="continue" id="continue">
+    <h2>Why Choose ATSChecker?</h2>
+    <p>We provide instant AI-powered resume analysis with keyword matching and ATS optimization tips. Stay ahead of the competition with our smart tools.</p>
+    <div class="cards">
+      <div class="card">⚡ Fast & Accurate</div>
+      <div class="card">📊 Data-Driven Suggestions</div>
+      <div class="card">🔒 100% Privacy</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 ATSChecker. All Rights Reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
